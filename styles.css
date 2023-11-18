@@ -184,6 +184,9 @@ body {
     width: 100%;
 }
 
+hr {
+    margin: 40px 0;
+}
 
 .login{
     display: flex;
@@ -253,6 +256,12 @@ body {
     color: #252525;
 }
 
+.about-us-h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #252525;
+}
+
 .text-about-us{
     text-align: center;
 }
@@ -264,4 +273,8 @@ body {
 .GitHubLogo{
     width: 40px;
     height: auto;
+}
+
+footer{
+    margin-top: 50px;
 }
