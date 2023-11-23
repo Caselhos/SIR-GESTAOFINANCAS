@@ -6,96 +6,108 @@
     <title>MoneyMaster</title>
     <link rel="stylesheet" href="./styles.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="secao" id="landing-container">
-        <div class="container">
+    <div class="secao text-center" id="landing-container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12 nav-links">
-                    <nav class="navbar navbar-light fixed-top">
-                        <div class="text-center">
-                            <a class="navbar-brand" href="#landing-container">
-                                <img src="./logo11.png" alt="logo" class="logo">
-                            </a>
-                        </div>
-                        
+                <div class="col">
+                    <div class="logo-layout">
+                        <a class="navbar-brand" href="#landing-container">
+                            <img src="./logoMoneyMaster-removebg-preview.png" alt="logo" class="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col align-items-start nav-links">
+                    <nav class="navbar navbar-expand-md navbar-light">
                         <ul class="d-none d-md-block">
-                            <li><a href="#how-it-works">COMO FUNCIONA</a></li>
+                            <li><a href="#how-it-works" >COMO FUNCIONA</a></li>
                             <li><a href="#about-us">SOBRE NÓS</a></li>
                             <li><a href="">LOGIN</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row">
                 <div class="col-md-12 welcome">
-                    <header class="header">
-                        <h1>Money Master</h1>
-                    </header>
-                    <p style="font-size:x-large ;">A tua plataforma para gerir as tuas despesas pessoais!</p>
-                    <a href=""><button class="button">Começar!</button></a>
+                        <h1 class="header">Money Master</h1>
+                    <p style="font-size:x-large; color: white;">A tua plataforma para gerir as tuas despesas pessoais!</p>
+                    <a href=""><button class="button">Começar Agora</button></a>
                 </div>
             </div>
         </div>
     </div>
     <div class="secao" id="how-it-works">
-        <div class="row mt-5">
-            <div class="col">
-                <h1>Como funciona</h1>
+        <div class="how-it-works-container">
+            <h3 class="mt-5" style="padding: 5px;">O MoneyMaster ajuda-te a gerir as tuas despesas. Vê como o podes fazer:</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="box">
+                        <div class="login">
+                            <a href="#"><img src="./user-profile_5645402.png" alt="login"></a>
+                            <p>Regista-te.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">   
+                    <div class="box">
+                        <div class="categoria">
+                            <a href="#"><img src="./share_7489765.png" alt="categoriza"></a>
+                            <p>Adiciona e categoriza as tuas despesas.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="box">
+                        <div class="agenda">
+                            <img src="./shedule.png" alt="agenda">
+                            <p>Agenda pagamentos e recebe lembretes para não deixares as tuas despesas acumularem.</p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box">
+                        <div class="anexo">
+                            <img src="./attach-file.png" alt="anexo" >
+                            <p class="mb-5">Adiciona notas e anexa as tuas faturas/recibos como comprovativos de pagamento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>       
         </div>
-        <div class="row mt-4">
-            <div class="col login">
-                <a href=""><img src="./user-profile_5645402.png" alt="login"></a>
-                <p>Regista-te.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col categoria">
-                <a href=""><img src="./share_7489765.png" alt="categoriza"></a>
-                <p>Adiciona e categoriza as tuas despesas.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col agenda">
-                <img src="./shedule.png" alt="agenda">
-                <p>Agenda pagamentos e recebe lembretes para não deixares as tuas despesas acumularem.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col anexo">
-                <img src="./attach-file.png" alt="anexo" >
-                <p>Adiciona notas e anexa as tuas faturas/recibos como comprovativos de pagamento.</p>
-            </div>
-        </div> 
     </div>
     <div class="secao" id="about-us">
-        <div class="row mt-5">
-            <div class="col text-about-us">
-                <h1 class="about-us-h1">Sobre nós</h1>
-                <p>Bem-vindo à nossa plataforma de gestão de despesas!</p>
-                <p>Somos estudantes do curso de Engenharia Informática na ESTG-IPVC.</p>
-                <p>Comprometemo-nos a ajudar-te com a gestão das tuas despesas pessoais.</p>
-            </div>
-        </div>
-        <div class="row mt-2">
-            <div class="col text-objetivo">
-                <h2 class="objetivo">O nosso objetivo</h2>
-                <p>Queremos proporcionar-te uma experiência intuitiva e eficaz na gestão das tuas despesas.</p>
-                <p>Acreditasmos que a tecnologia pode simplificar a teu dia-a-dia.</p>
-            </div>
-        </div>
-        <div class="row mt-2">
-            <div class="col text-contacto">
-                <h2 class="contacto">Contacta-nos</h2>
-                <p>Se tiveres alguma dúvida ou sugestão, não hesites em contactar-nos!</p>
-                <p>Estamos disponíveis para te ajudar!</p>
-            </div>
-        </div>
-        <div id="team">
-            <hr>
+        <div class="container-fluid">
+                <div class="row mt-3">
+                    <div class="col text-about-us">
+                        <h1 class="about-us-h1">Sobre nós</h1>
+                        <p>Bem-vindo à nossa plataforma de gestão de despesas!</p>
+                        <p>Somos estudantes do curso de Engenharia Informática na ESTG-IPVC.</p>
+                        <p>Comprometemo-nos a ajudar-te com a gestão das tuas despesas pessoais.</p>
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col text-objetivo">
+                        <h2 class="objetivo">O nosso objetivo</h2>
+                        <p>Queremos proporcionar-te uma experiência intuitiva e eficaz na gestão das tuas despesas.</p>
+                        <p>Acreditamos que a tecnologia pode simplificar a teu dia-a-dia.</p>
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col text-contacto">
+                        <h2 class="contacto">Contacta-nos</h2>
+                        <p>Se tiveres alguma dúvida ou sugestão, não hesites em contactar-nos!</p>
+                        <p>Estamos disponíveis para te ajudar!</p>
+                    </div>
+                </div>
             <footer>
-                <div class="row mt-2">
+                <hr>
+                <div class="row">
                     <div class="col rodape">
                         <ul>
                             <li style="margin-right: 20px;">&copy;MoneyMaster</li>
@@ -105,8 +117,8 @@
                     </div>
                 </div>
             </footer>
-        </div>    
-    </div>
+        </div>
+    </div> 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
