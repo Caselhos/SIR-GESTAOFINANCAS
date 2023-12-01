@@ -184,7 +184,7 @@ body {
 
 #how-it-works{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,11 +197,13 @@ body {
 }
 
 .how-it-works-container{
+    max-width: 100%;
+    height: auto;
     margin: auto;
 }
 
 #how-it-works p {
-    margin-bottom: auto;
+    margin-bottom: 10px;
 }
 
 .login{
@@ -211,8 +213,12 @@ body {
     text-align: center;
     margin: 5px;
 }
-.login img{
-    width: 100px;
+.login img,
+.categoria img,
+.agenda img,
+.anexo img{
+    width: 100%;
+    max-width: 100px;
     height: auto;
 }
 
@@ -228,10 +234,6 @@ body {
     text-align: center;
     margin:5px;
 }
-.categoria img{
-    width: 100px;
-    height: auto;
-}
 
 .categoria p{
     font-size: x-large;
@@ -244,10 +246,6 @@ body {
     align-items: center;
     text-align: center;
     margin: 5px;
-}
-.agenda img{
-    width: 100px;
-    height: auto;
 }
 
 .agenda p{
@@ -262,10 +260,6 @@ body {
     text-align: center;
     margin: 5px;
 }
-.anexo img{
-    width: 100px;
-    height: auto;
-}
 
 .anexo p{
     font-size: x-large;
@@ -274,7 +268,7 @@ body {
 
 #about-us {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -308,17 +302,16 @@ body {
 }
 
 .GitHubLogo{
-    width: 40px;
+    width: 100%;
+    max-width: 40px;
     height: auto;
-}
-
-footer{
-    margin-top: 50px;
 }
 
 .rodape ul {
     padding: 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
 } 
 
@@ -326,7 +319,10 @@ footer{
     text-align: center;
     align-items: center;
     display: inline;
+    margin-right: 20px;
 }
+
+
 
 /*------------login-------------*/
 .box-area{
@@ -336,7 +332,6 @@ footer{
     width: 100%;
     height: 100%;
 }
-
 
 .right-box{
     padding: 40px 30px 40px 40px;
